@@ -6,6 +6,17 @@
 
 Since it is a pure bash script, it does not have any external dependencies.
 
+*Update*: add c code and cmake file as an optional method, add Dockerfile to compile C code. 
+
 # Usage
 
 # Example
+
+```
+wait-for-it.sh file [-rxw] [ti timeout] [-- command args]
+-h,       show the help message
+-x,       wait for the path to be executable
+-r,       wait for the path to be readable
+-w,       wait for the path to be writable
+
+```
